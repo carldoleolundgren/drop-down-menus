@@ -1,0 +1,45 @@
+#menu1, #menu2, #menu3 {
+    display: inline-block;
+    line-height: 75px;
+    position: absolute;
+    
+}
+
+#menu1 {
+    left: 20%;
+}
+
+#menu2 {
+    left: 45%;
+}
+
+#menu3 {
+    left: 70%;
+}
+
+#header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 75px;
+    background-color: aqua;
+}
+
+.hidden-menu {
+    display: none;
+}
+
+.visible-menu {
+    z-index: 1;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
