@@ -1,0 +1,23 @@
+{
+  "name": "drop-down-menu",
+  "version": "1.0.0",
+  "description": "Simple reusable code for drop-down menus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/carldoleolundgren/drop-down-menus.git"
+  },
+  "author": "Carl D'Oleo-Lundgren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carldoleolundgren/drop-down-menus/issues"
+  },
+  "homepage": "https://github.com/carldoleolundgren/drop-down-menus#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
